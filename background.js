@@ -1,9 +1,8 @@
 chrome.contextMenus.create({
 
-	id: "Track this number",
+	id: "Track this number right now!",
 	title: "Track this number",
 	contexts:["selection"],
-
 });
 
 chrome.contextMenus.onClicked.addListener(function myFunction(selectedText) {
